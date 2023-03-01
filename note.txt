@@ -4,3 +4,4 @@ git config --global user.name "LeoYau2"
 cmd netstat -ano | findstr :3000
 git log --pretty=format:%h%x09%an%x09%ad%x09%s" --after-2023-02-21
 VScode ctrl+D 多選
+ctrl+shift+T
