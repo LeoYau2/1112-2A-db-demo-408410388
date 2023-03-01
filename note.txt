@@ -5,3 +5,5 @@ cmd netstat -ano | findstr :3000
 git log --pretty=format:%h%x09%an%x09%ad%x09%s" --after-2023-02-21
 VScode ctrl+D 多選
 ctrl+shift+T
+database.js port: '5433', password: '0000',
+database.js port: '5432', password: '1234',

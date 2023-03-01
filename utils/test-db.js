@@ -1,6 +1,5 @@
 const db = require('./database');
 
-
 const testDB = async () => {
     try {
         let results = await db.query('select * from category_88');
