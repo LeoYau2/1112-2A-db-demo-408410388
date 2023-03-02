@@ -7,7 +7,7 @@ let db = require('../utils/database')
 router.get('/', async function(req, res, next) {
   try {
     let results = await db.query('select * from category_88');
-    console.log('category data', JSON.stringify(results.row));
+    console.log('category data', JSON.stringify(results.rows));
     res.render('crown2_88/index', {
       data: results.rows,
       name: '姚昌佑',
