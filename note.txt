@@ -7,3 +7,6 @@ VScode ctrl+D 多選
 ctrl+shift+T
 database.js port: '5433', password: '0000',
 database.js port: '5432', password: '1234',
+
+DELETE from category_88
+WHERE id = 1
